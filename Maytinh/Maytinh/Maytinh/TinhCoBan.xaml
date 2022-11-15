@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="Black"
+             x:Class="Maytinh.TinhCoBan">
+    <StackLayout>
+        <Button Text="Tinh Toan" FontSize="40" FontAttributes="Bold"
+                     
+                     HorizontalOptions="CenterAndExpand"
+                     VerticalOptions="CenterAndExpand" CornerRadius="60" BackgroundColor="#2CF612"/>
+        <Button Text="Chuc Nang" FontSize="40" FontAttributes="Bold" BackgroundColor="#E9FA08" TextColor="Black"
+                     
+                     HorizontalOptions="CenterAndExpand"
+                     VerticalOptions="CenterAndExpand" CornerRadius="60"/>
+        <Button Text="Lich Su" FontSize="40" FontAttributes="Bold"
+                     
+                     HorizontalOptions="CenterAndExpand"
+                     VerticalOptions="CenterAndExpand" CornerRadius="60" BackgroundColor="#FAA708"/>
+
+    </StackLayout>
+
+</ContentPage>
