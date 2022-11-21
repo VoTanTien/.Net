@@ -2142,18 +2142,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {},
+    "C:\\Users\\tuanh\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\hacker3.1\\.NET\\Maytinh\\Maytinh\\Maytinh.Android\\Maytinh.Android.csproj",
+      "projectUniqueName": "D:\\Document\\TERM 5\\.Net\\.Net\\Maytinh\\Maytinh\\Maytinh.Android\\Maytinh.Android.csproj",
       "projectName": "Maytinh.Android",
-      "projectPath": "D:\\hacker3.1\\.NET\\Maytinh\\Maytinh\\Maytinh.Android\\Maytinh.Android.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\hacker3.1\\.NET\\Maytinh\\Maytinh\\Maytinh.Android\\obj\\",
+      "projectPath": "D:\\Document\\TERM 5\\.Net\\.Net\\Maytinh\\Maytinh\\Maytinh.Android\\Maytinh.Android.csproj",
+      "packagesPath": "C:\\Users\\tuanh\\.nuget\\packages\\",
+      "outputPath": "D:\\Document\\TERM 5\\.Net\\.Net\\Maytinh\\Maytinh\\Maytinh.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2161,7 +2161,7 @@
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tuanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -2171,13 +2171,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://packagesource": {}
       },
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "D:\\hacker3.1\\.NET\\Maytinh\\Maytinh\\Maytinh\\Maytinh.csproj": {
-              "projectPath": "D:\\hacker3.1\\.NET\\Maytinh\\Maytinh\\Maytinh\\Maytinh.csproj"
+            "D:\\Document\\TERM 5\\.Net\\.Net\\Maytinh\\Maytinh\\Maytinh\\Maytinh.csproj": {
+              "projectPath": "D:\\Document\\TERM 5\\.Net\\.Net\\Maytinh\\Maytinh\\Maytinh\\Maytinh.csproj"
             }
           }
         }
