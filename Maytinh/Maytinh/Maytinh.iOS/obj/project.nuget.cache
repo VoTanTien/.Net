@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Irjae4FURY9nL8mMN76aIFzUuI4RlsiORQa2NvZJrdiqEfRHZyUQetIaXpHvU5lF2JBQhXm51eg2AFI/BXo58Q==",
+  "dgSpecHash": "bzwbWTLuQFsHhHGnFinSbhZWUlQxnVu59TLUvr5IkZBk6vSNsqA5RWccaF5UJLjJrWRq3A5SJFKP5vwqgfP/Zw==",
   "success": true,
-  "projectFilePath": "D:\\Document\\TERM 5\\.Net\\.Net\\Maytinh\\Maytinh\\Maytinh.iOS\\Maytinh.iOS.csproj",
+  "projectFilePath": "D:\\clone githup .net\\.Net\\Maytinh\\Maytinh\\Maytinh.iOS\\Maytinh.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\tuanh\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],

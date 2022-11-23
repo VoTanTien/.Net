@@ -1,190 +1,189 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="LightCyan"
              x:Class="Maytinh.ChucNang">
-    
-        <Grid x:Name="menuChucNang" RowSpacing="1" ColumnSpacing="1" >
-            <Grid.RowDefinitions>
-                <RowDefinition Height="50" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
+
+    <Grid x:Name="menuChucNang" RowSpacing="1" ColumnSpacing="1" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
             <ColumnDefinition Width="70" />
             <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
-            <Label x:Name="lbChucNang" 
+        </Grid.ColumnDefinitions>
+        <Label x:Name="lbChucNang" 
                Text="Chọn chức năng"
                Grid.Row="0"
                Grid.Column="1"
-               FontSize="20" 
+               FontSize="30" 
+               
                HorizontalTextAlignment="Center"
                VerticalTextAlignment="Center"
-               BackgroundColor="#5FA2FF"
+               BackgroundColor="LightCyan"
                TextColor="Black"
                FontAttributes="Bold"
                />
-            <Button 
-                    Text="Home" 
+        <Button  
+                    Text=" Home "
                     TextColor="Black"
                     Grid.Row="0"
                     Grid.Column="0"
-                    BackgroundColor="#3F75FF"
-                    BorderColor="White"
-                    BorderWidth="1"
                     FontSize="12"
+                    FontAttributes="Bold"
+                    BackgroundColor="#5FA2FF"
+                    VerticalOptions="EndAndExpand"
+                    HorizontalOptions="Center"
+                    CornerRadius="60"
                     Clicked="BtnHome_clicked"
                />
-            <Button x:Name="btnGiaiPTBacNhat"
+        <Button x:Name="btnGiaiPTBacNhat"
                     Text="Giải phương trình bậc 1" 
                     TextColor="Black"
                     Grid.Row="1"
                     Grid.ColumnSpan="2"
-                    BackgroundColor="#3F75FF"
-                    BorderColor="White"
+                    BackgroundColor="#5FA2FF"
+                    VerticalOptions="EndAndExpand"
+                    
                     BorderWidth="1"
-                    FontSize="12"
+                    FontSize="16"
+                    CornerRadius="20"
                     Clicked="BtnGiaiPTBacNhat_clicked"
                />
-            <Button x:Name="btnGiaiPTBac2"
+        <Button x:Name="btnGiaiPTBac2"
                     Text="Giải phương trình bậc 2" 
                     TextColor="Black"
                     Grid.Row="2"
                     Grid.ColumnSpan="2"
-                    BackgroundColor="#3F75FF"
-                    BorderColor="White"
+                    BackgroundColor="#5FA2FF"
+                    VerticalOptions="EndAndExpand"
                     BorderWidth="1"
-                    FontSize="12"
+                    FontSize="16"
+                    CornerRadius="20"
                     Clicked="BtnGiaiPTBac2_clicked"
                />
-            <Button x:Name="btnGiaiPTBac3"
+        <Button x:Name="btnGiaiPTBac3"
                     Text="Giải phương trình bậc 3" 
                     TextColor="Black"
                     Grid.Row="3"
                     Grid.ColumnSpan="2"
-                    BackgroundColor="#3F75FF"
-                    BorderColor="White"
+                    BackgroundColor="#5FA2FF"
+                    VerticalOptions="EndAndExpand"
                     BorderWidth="1"
-                    FontSize="12"
+                    FontSize="16"
+                    CornerRadius="20"
                     Clicked="BtnGiaiPTBac3_clicked"
                />
-            <Button x:Name="btnGiaiHPT2An"
+        <Button x:Name="btnGiaiHPT2An"
                     Text="Giải hệ phương trình 2 ẩn" 
                     TextColor="Black"
                     Grid.Row="4"
                     Grid.ColumnSpan="2"
-                    BackgroundColor="#3F75FF"
-                    BorderColor="White"
+                    BackgroundColor="#5FA2FF"
+                    VerticalOptions="EndAndExpand"
                     BorderWidth="1"
-                    FontSize="12"
+                    FontSize="16"
+                    CornerRadius="20"
                     Clicked="BtnGiaiHPT2An_clicked"
                />
-            <Button x:Name="btnGiaiHPT3An"
+        <Button x:Name="btnGiaiHPT3An"
                     Text="Giải hệ phương trình 3 ẩn" 
                     TextColor="Black"
                     Grid.Row="5"
                     Grid.ColumnSpan="2"
-                    BackgroundColor="#3F75FF"
-                    BorderColor="White"
+                    BackgroundColor="#5FA2FF"
+                    VerticalOptions="EndAndExpand"
                     BorderWidth="1"
-                    FontSize="12"
+                    FontSize="16"
+                    CornerRadius="20"
                     Clicked="BtnGiaiHPT3An_clicked"
                />
-            <Button x:Name="btnTimUCLNBCNN"
+        <Button x:Name="btnTimUCLNBCNN"
                     Text="Tìm UCLN, BCNN của 2 số" 
                     TextColor="Black"
                     Grid.Row="6"
                     Grid.ColumnSpan="2"
-                    BackgroundColor="#3F75FF"
-                    BorderColor="White"
+                    BackgroundColor="#5FA2FF"
+                    VerticalOptions="EndAndExpand"
                     BorderWidth="1"
-                    FontSize="12"
+                    FontSize="16"
+                    CornerRadius="20"
                     Clicked="BtnTimUCLNBCNN_clicked"
                />
-            <Button x:Name="btnKiemTraSNT"
+        <Button x:Name="btnKiemTraSNT"
                     Text="Kiểm tra số nguyên tố" 
                     TextColor="Black"
                     Grid.Row="7"
                     Grid.ColumnSpan="2"
-                    BackgroundColor="#3F75FF"
-                    BorderColor="White"
+                    BackgroundColor="#5FA2FF"
+                    VerticalOptions="EndAndExpand"
                     BorderWidth="1"
-                    FontSize="12"
+                    FontSize="16"
+                    CornerRadius="20"
                     Clicked="BtnKiemTraSNT_clicked"
                />
-            <Button x:Name="btnTimCucTriHamBac2"
+        <Button x:Name="btnTimCucTriHamBac2"
                     Text="Tìm cực trị hàm số bậc 2" 
                     TextColor="Black"
                     Grid.Row="8"
                     Grid.ColumnSpan="2"
-                    BackgroundColor="#3F75FF"
-                    BorderColor="White"
+                    BackgroundColor="#5FA2FF"
+                    VerticalOptions="EndAndExpand"
                     BorderWidth="1"
-                    FontSize="12"
+                    FontSize="16"
+                    CornerRadius="20"
                     Clicked="BtnTimCucTriHamBac2_clicked"
                />
-            <Button x:Name="btnTimCucTriHamBac3"
+        <Button x:Name="btnTimCucTriHamBac3"
                     Text="Tìm cực trị hàm số bậc 3" 
                     TextColor="Black"
                     Grid.Row="9"
                     Grid.ColumnSpan="2"
-                    BackgroundColor="#3F75FF"
-                    BorderColor="White"
+                    BackgroundColor="#5FA2FF"
+                    VerticalOptions="EndAndExpand"
                     BorderWidth="1"
-                    FontSize="12"
+                    FontSize="16"
+                    CornerRadius="20"
                     Clicked="BtnTimCucTriHamBac3_clicked"
                />
-            <Button x:Name="btnBangGiaTri"
+        <Button x:Name="btnBangGiaTri"
                     Text="Bảng giá trị hàm số" 
                     TextColor="Black"
                     Grid.Row="10"
                     Grid.ColumnSpan="2"
-                    BackgroundColor="#3F75FF"
-                    BorderColor="White"
+                    BackgroundColor="#5FA2FF"
+                    VerticalOptions="EndAndExpand"
                     BorderWidth="1"
-                    FontSize="12"
+                    FontSize="16"
+                    CornerRadius="20"
                     Clicked="BtnBangGiaTri_clicked"
                />
-            <Button x:Name="btnHDSD"
+        <Button x:Name="btnHDSD"
                     Text="Hướng dẫn sử dụng" 
                     TextColor="Black"
                     Grid.Row="11"
                     Grid.ColumnSpan="2"
-                    BackgroundColor="#3F75FF"
-                    BorderColor="White"
+                    BackgroundColor="#5FA2FF"
+                    VerticalOptions="EndAndExpand"
                     BorderWidth="1"
-                    FontSize="12"
+                    FontSize="16"
+                    CornerRadius="20"
                     Clicked="BtnHDSD_clicked"
                />
 
 
-        <!--<ListView x:Name="lvChucNang" Grid.Row="1" >
-                <ListView.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>Giải phương trình bậc 1</x:String>
-                        <x:String>Giải phương trình bậc 2</x:String>
-                        <x:String>Giải phương trình bậc 3</x:String>
-                        <x:String>Giải hệ phương trình bậc nhất, 2 ẩn</x:String>
-                        <x:String>Giải hệ phương trình bậc nhất, 3 ẩn</x:String>
-                        <x:String>Tìm UCLN, BCNN của 2 số</x:String>
-                        <x:String>Kiểm tra số nguyên tố</x:String>
-                        <x:String>Tìm cực trị hàm số bậc 2</x:String>
-                        <x:String>Tìm cực trị hàm số bậc 3</x:String>
-                        <x:String>Bảng giá trị hàm số</x:String>
-                        <x:String>Hướng dẫn sử dụng</x:String>
-                        
-                    </x:Array>
-                </ListView.ItemsSource>
-            </ListView> -->
-        </Grid>
-   
+
+    </Grid>
+
 </ContentPage>
