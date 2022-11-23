@@ -16,5 +16,53 @@ namespace Maytinh.Function
         {
             InitializeComponent();
         }
+        private void BtnLamMoi_Clicked(object sender, EventArgs e)
+        {
+            txtA.Text = "";
+            txtB.Text = "";
+            txtC.Text = "";
+            lbKetQua1.Text = "";
+        }
+
+        public void timCucTriHamBac2(double a, double b, double c)
+        {
+            if (a == 0)
+            {
+                lbKetQua1.Text = "Khong co cuc tri";
+            }
+            else
+            {
+                double cucTri = -b/2*a;
+                double y = a * Math.Pow(cucTri, 2) + b * cucTri + c;
+                if( a > 0)
+                {
+                    lbKetQua1.Text = "Ham so dat cuc dai tai (" + cucTri.ToString() + ", " + y.ToString() + ")";
+                }
+                if(a < 0)
+                {
+                    lbKetQua1.Text = "Ham so dat cuc tieu tai (" + cucTri.ToString() + ", " + y.ToString() + ")";
+                }
+            }
+        }
+
+        private void BtnTinh_Clicked(object sender, EventArgs e)
+        {
+            try
+            {
+                double a = double.Parse(txtA.Text);
+                double b = double.Parse(txtB.Text);
+                double c = double.Parse(txtC.Text);
+                timCucTriHamBac2(a, b, c);
+            }
+            catch
+            {
+                lbKetQua1.Text = "Lỗi biểu thức";
+            }
+        }
+
+        private void BtnThoat_Clicked(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new ChucNang();
+        }
     }
 }

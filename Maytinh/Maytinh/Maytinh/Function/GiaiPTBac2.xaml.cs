@@ -27,6 +27,7 @@ namespace Maytinh.Function
 
         public void giaiPTB2(double a, double b, double c)
         {
+            double x1 = 0, x2 = 0;
             if (a == 0)
             {
                 if (b == 0)

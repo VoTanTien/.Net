@@ -53,3 +53,31 @@ D:\Document\TERM 5\.Net\.Net\Maytinh\Maytinh\Maytinh\obj\Debug\netstandard2.0\Xa
 D:\Document\TERM 5\.Net\.Net\Maytinh\Maytinh\Maytinh\obj\Debug\netstandard2.0\Maytinh.dll
 D:\Document\TERM 5\.Net\.Net\Maytinh\Maytinh\Maytinh\obj\Debug\netstandard2.0\ref\Maytinh.dll
 D:\Document\TERM 5\.Net\.Net\Maytinh\Maytinh\Maytinh\obj\Debug\netstandard2.0\Maytinh.pdb
+E:\.Net\Maytinh\Maytinh\Maytinh\bin\Debug\netstandard2.0\Maytinh.deps.json
+E:\.Net\Maytinh\Maytinh\Maytinh\bin\Debug\netstandard2.0\Maytinh.dll
+E:\.Net\Maytinh\Maytinh\Maytinh\bin\Debug\netstandard2.0\ref\Maytinh.dll
+E:\.Net\Maytinh\Maytinh\Maytinh\bin\Debug\netstandard2.0\Maytinh.pdb
+E:\.Net\Maytinh\Maytinh\Maytinh\obj\Debug\netstandard2.0\Maytinh.csproj.AssemblyReference.cache
+E:\.Net\Maytinh\Maytinh\Maytinh\obj\Debug\netstandard2.0\Maytinh.GeneratedMSBuildEditorConfig.editorconfig
+E:\.Net\Maytinh\Maytinh\Maytinh\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\.Net\Maytinh\Maytinh\Maytinh\obj\Debug\netstandard2.0\ChucNang.xaml.g.cs
+E:\.Net\Maytinh\Maytinh\Maytinh\obj\Debug\netstandard2.0\Function\BangGiaTri.xaml.g.cs
+E:\.Net\Maytinh\Maytinh\Maytinh\obj\Debug\netstandard2.0\Function\GiaiHPT2An.xaml.g.cs
+E:\.Net\Maytinh\Maytinh\Maytinh\obj\Debug\netstandard2.0\Function\GiaiHPT3An.xaml.g.cs
+E:\.Net\Maytinh\Maytinh\Maytinh\obj\Debug\netstandard2.0\Function\GiaiPTBac2.xaml.g.cs
+E:\.Net\Maytinh\Maytinh\Maytinh\obj\Debug\netstandard2.0\Function\GiaiPTBac3.xaml.g.cs
+E:\.Net\Maytinh\Maytinh\Maytinh\obj\Debug\netstandard2.0\Function\GiaiPTBacNhat.xaml.g.cs
+E:\.Net\Maytinh\Maytinh\Maytinh\obj\Debug\netstandard2.0\Function\HuongDanSuDung.xaml.g.cs
+E:\.Net\Maytinh\Maytinh\Maytinh\obj\Debug\netstandard2.0\Function\KiemTraSNT.xaml.g.cs
+E:\.Net\Maytinh\Maytinh\Maytinh\obj\Debug\netstandard2.0\Function\TimCucTriHamBac2.xaml.g.cs
+E:\.Net\Maytinh\Maytinh\Maytinh\obj\Debug\netstandard2.0\Function\TimCucTriHamBac3.xaml.g.cs
+E:\.Net\Maytinh\Maytinh\Maytinh\obj\Debug\netstandard2.0\Function\TimUCLNBCNN.xaml.g.cs
+E:\.Net\Maytinh\Maytinh\Maytinh\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\.Net\Maytinh\Maytinh\Maytinh\obj\Debug\netstandard2.0\TinhCoBan.xaml.g.cs
+E:\.Net\Maytinh\Maytinh\Maytinh\obj\Debug\netstandard2.0\Maytinh.AssemblyInfoInputs.cache
+E:\.Net\Maytinh\Maytinh\Maytinh\obj\Debug\netstandard2.0\Maytinh.AssemblyInfo.cs
+E:\.Net\Maytinh\Maytinh\Maytinh\obj\Debug\netstandard2.0\Maytinh.csproj.CoreCompileInputs.cache
+E:\.Net\Maytinh\Maytinh\Maytinh\obj\Debug\netstandard2.0\XamlC.stamp
+E:\.Net\Maytinh\Maytinh\Maytinh\obj\Debug\netstandard2.0\Maytinh.dll
+E:\.Net\Maytinh\Maytinh\Maytinh\obj\Debug\netstandard2.0\ref\Maytinh.dll
+E:\.Net\Maytinh\Maytinh\Maytinh\obj\Debug\netstandard2.0\Maytinh.pdb
